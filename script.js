@@ -138,7 +138,7 @@ function update(){
         //if ball goes past bottom of canvas
         // game over
         context.font="14px sans-serif";
-        context.fillText("Game Over: Click or Press 'Space' to Restart",9,300);
+        context.fillText("Game Over: Click or Press 'Space' to Restart",8,300);
         gameOver=true;
     }
 
