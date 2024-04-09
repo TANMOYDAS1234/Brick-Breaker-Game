@@ -281,6 +281,9 @@ function resetGame(){
     }
     blockArray=[];
     blockRows=3;
+    ballVelocityX=3;
+    ballVelocityY=2;
+    playerWidth=50;
     score=0;
     createBlocks();
 }
